@@ -1,0 +1,31 @@
+{
+    "name": "XI-3 კლასის ონლაინ გაკვეთილების ცხრილი",
+    "short_name": "ცხრილი",
+    "description": "XI-3 კლასის ონლაინ გაკვეთილების ცხრილი",
+    "icons": [
+        {
+            "src": "./icons/48x48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "./icons/96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./icons/144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "./icons/196x196.png",
+            "sizes": "196x196",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/pages/class_table/index.html?addToHome=true",
+    "display": "fullscreen",
+    "theme_color": "#b0ffc5",
+    "background_color": "#222"
+}
