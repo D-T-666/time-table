@@ -8,8 +8,8 @@ function hilightCurrentDay() {
     if (day < 6 && day > 0) {
         let today = document.getElementById(day);
 
-        today.style.color = "#b0ffc5";
-        today.style.borderColor = "#b0ffc5";
+        // today.style.color = "#b0ffc5";
+        // today.style.borderColor = "#b0ffc5";
         today.style.transform = "scale(1.3)";
     }
 }
