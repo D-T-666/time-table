@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #222;
 }
 
 @font-face {
@@ -53,8 +53,11 @@ table {
     box-shadow: 0 12px 24px #0003,
                 0 12px 16px #0001,
                 0 2px 32px #0001;
-    background-color: #fff;
-    /* color: #ddd; */
+    background-color: #222;
+    color: #bbb;
+    font-weight: 100;
+    text-shadow: 0.5px 0.5px 3px #0008,
+                 -0.5px -0.5px 2px #fff2;
 }
 
 /* tr::after {

@@ -6,11 +6,11 @@ function hilightCurrentDay() {
     console.log("day index -", day);
 
     if (day < 6 && day > 0) {
-        let today = document.getElementById(day);
+        document.querySelectorAll("#day-" + day + ">tbody>tr>td").forEach(elt => {
+            elt.style.color = "#cdc3e6";
+        });
 
-        // today.style.color = "#b0ffc5";
-        // today.style.borderColor = "#b0ffc5";
-        today.style.transform = "scale(1.3)";
+        document.getElementById("day-" + day).style.boxShadow = "inset 0 0 8px #99aaff66, 0 12px 24px #0003, 0 12px 16px #0001, 0 2px 32px #0001"
     }
 }
 
@@ -38,7 +38,7 @@ async function loadData() {
             tableBodyEllement.appendChild(rowEllement);
         }
         tableEllement.appendChild(tableBodyEllement);
-        tableEllement.id = weekday + 1;
+        tableEllement.id = "day-" + (weekday + 1);
         // console.table(table);
         document.getElementById("tables-container").appendChild(tableEllement);
     }
