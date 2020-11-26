@@ -52,7 +52,10 @@ table {
     
     box-shadow: 0 12px 24px #0003,
                 0 12px 16px #0001,
-                0 2px 32px #0001;
+                0 2px 32px #0001,
+                inset 2px 2px 6px #fff1,
+                inset -2px 2px 6px #fff1,
+                inset 0 -2px 6px #000a;
     background-color: #222;
     color: #bbb;
     font-weight: 100;
