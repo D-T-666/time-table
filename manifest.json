@@ -24,7 +24,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/pages/class_table/index.html?addToHome=true",
+    "start_url": "/time-table/index.html",
     "display": "fullscreen",
     "theme_color": "#cdc3e6",
     "background_color": "#333"
