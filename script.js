@@ -6,15 +6,10 @@ function hilightCurrentDay() {
     console.log("day index -", day);
 
     if (day < 6 && day > 0) {
-        document.querySelectorAll("#day-" + day + ">tbody>tr>td").forEach(elt => {
-            elt.style.color = "#cdc3e6";
-        });
-
-        let table = document.getElementById("day-" + day);
-        table.style.boxShadow = "inset 0 0 8px #99aaff66, inset 2px 2px 6px #fff1, inset -2px 2px 6px #fff1, 0 0 16px #99aaff88, 0 12px 24px #0003, 0 12px 16px #0001, 0 2px 32px #0001";
-        table.style.borderSize = "2px";
-        table.style.borderColor = "#9999ff";
-        table.style.borderStyle = "solid";
+        document
+            .getElementById("day-" + day)
+            .classList
+            .add("highlighted");
     }
 }
 
